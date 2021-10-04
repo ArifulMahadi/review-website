@@ -15,7 +15,6 @@ function App() {
       <BrowserRouter>
       <Header></Header>
           <Switch>
-          
             <Route exact path='/'>
                 <Home></Home>
             </Route>
@@ -34,7 +33,6 @@ function App() {
             <Route path='*'>
               <NotFound></NotFound>
             </Route>
-            
           </Switch>
           <Footer></Footer>
       </BrowserRouter>
