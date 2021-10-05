@@ -12,16 +12,16 @@ const Services = () => {
         .then(data => setServices(data))
     },[]);
     return (
-        <div className='text-center'>
-            <Row xs={1} md={3} lg={2} className="g-4">
+        <div className="text-center w-75">
+            
  
-    <Col>
+    
        {
            services.map(service => <Service service = {service}></Service>)
        } 
-    </Col>
+    
   
-</Row>
+          
         </div>
     );
 };
