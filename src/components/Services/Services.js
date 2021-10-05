@@ -12,7 +12,7 @@ const Services = () => {
         .then(data => setServices(data))
     },[]);
     return (
-        <div className="text-center w-75">
+        <div className="text-center w-75 mx-auto">
             
  
     

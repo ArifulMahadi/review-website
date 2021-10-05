@@ -13,7 +13,7 @@ const Achivement = () => {
     } ,[])
     return (
         
-            <div style={{ width: '50%' }}>
+            <div className="text-center w-75 mx-auto">
                
                {
                    achivement.map(achive => <Achive achive={achive}></Achive>)

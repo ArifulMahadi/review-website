@@ -4,7 +4,7 @@ import { Card } from 'react-bootstrap';
 const Achive = (props) => {
     const {img1,description1,achive} = props.achive
     return (
-        <div c>
+        <div>
             <Card.Body>
              <Card.Img src={img1}/>
              <Card.Title>{achive}</Card.Title>
