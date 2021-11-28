@@ -26,7 +26,7 @@ const Home = () => {
          </Figure>
         </div>
         <div className='m-auto'>
-            <h1>Know about our services</h1>
+            <h1>about our services</h1>
             {
                 home.map(dt => (
                 <h3>{dt.points}</h3>
